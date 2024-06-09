@@ -1,0 +1,57 @@
+.ksu-software {
+    font-family: "001.ttf";
+    font-size: 40px;
+    transition: transform 2s ease;
+    color: #262626;
+    cursor: pointer;
+  }
+  
+  .ksu-software.open {
+    transform: translateY(-100px);
+  }
+  
+  .all {
+    background-color: #E9F7E6;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .a3 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0px;
+    cursor: pointer;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0px;
+    opacity: 0;
+    transition: transform 2s ease;
+  }
+  
+  .menu.open {
+    opacity: 1;
+    transform: translateY(-300px);
+  }
+  
+  .menu-item {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #E9F7E6;
+    color: #262626;
+    border: 1px solid#262626;
+    border-radius: 0px;
+    cursor: pointer;
+    font-family: "002.ttf";
+    font-size: 12px;
+    text-decoration: none;
+  }

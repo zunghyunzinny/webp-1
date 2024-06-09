@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "001.ttf";
+  font-weight: normal;
+  src: url("./font/001.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "002.ttf";
+  font-weight: normal;
+  src: url("./font/002.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: "003.ttf";
+  font-weight: normal;
+  src: url("./font/003.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "004.ttf";
+  font-weight: normal;
+  src: url("./font/004.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "005.ttf";
+  font-weight: normal;
+  src: url("./font/005.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "006.ttf";
+  font-weight: normal;
+  src: url("./font/006.ttf") format("truetype");
+}
